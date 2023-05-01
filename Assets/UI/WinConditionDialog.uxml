@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main.uss?fileID=7433441132597879392&amp;guid=770a0c2edb0a4344c98a7ec06737036d&amp;type=3#main" />
+    <ui:VisualElement name="VisualElement" class="popup-container">
+        <ui:VisualElement name="MissionNameContainer">
+            <ui:Label tabindex="-1" text="You win!" display-tooltip-when-elided="true" name="MissionName" class="header" style="width: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MissionTextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Thanks for playing." display-tooltip-when-elided="true" name="MissionText" class="text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Timer" style="flex-direction: row; padding-top: 10px;">
+            <ui:Label tabindex="-1" text="Final Score" display-tooltip-when-elided="true" name="TimerLabel" class="text" style="width: 30%; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="TimerValue" class="text" style="white-space: normal; width: 50%; -unity-font-style: normal;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

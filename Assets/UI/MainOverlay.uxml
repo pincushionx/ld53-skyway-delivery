@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main.uss?fileID=7433441132597879392&amp;guid=770a0c2edb0a4344c98a7ec06737036d&amp;type=3#main" />
+    <ui:VisualElement style="flex-grow: initial; background-color: rgba(0, 0, 0, 0); position: absolute; bottom: 0; right: 0; width: 600px; height: 220px; background-image: url(&apos;project://database/Assets/Art/Materials/UI-box2.png?fileID=21300000&amp;guid=9b37d952a1d89ba498359739b4c4a642&amp;type=3#UI-box2&apos;); -unity-background-scale-mode: scale-to-fit; flex-shrink: initial;">
+        <ui:VisualElement name="Timer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; position: absolute; bottom: 6%; right: 2%; width: 22%;">
+            <ui:Label tabindex="-1" text="Timer" display-tooltip-when-elided="true" name="TimerLabel" class="text" style="width: 38%; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="TimerValue" class="text" style="white-space: normal; width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MissionCount" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; position: absolute; bottom: 15%; right: 2%; width: 22%;">
+            <ui:Label tabindex="-1" text="Mission" display-tooltip-when-elided="true" name="MissionCountLabel" class="text" style="width: 38%; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="MissionCountValue" class="text" style="white-space: normal; width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Mission" style="flex-grow: initial; background-color: rgba(0, 0, 0, 0); flex-shrink: initial; right: 2%; position: absolute; top: 2%; width: 35%;">
+            <ui:VisualElement name="MissionNameContainer" style="flex-grow: initial; background-color: rgba(0, 0, 0, 0); flex-shrink: initial;">
+                <ui:Label tabindex="-1" text="Mission name" display-tooltip-when-elided="true" name="MissionName" class="header" style="width: 98%; white-space: normal; flex-grow: 0; flex-shrink: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MissionTextContainer" style="background-color: rgba(0, 0, 0, 0); margin-bottom: 5px;">
+                <ui:Label tabindex="-1" text="Mission text" display-tooltip-when-elided="true" name="MissionText" class="text" style="width: 95%; flex-shrink: 1; flex-grow: 2;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Pickup" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; width: auto;">
+                <ui:Label tabindex="-1" text="Pickup" display-tooltip-when-elided="true" name="PickupLabel" class="text" style="width: 25%;" />
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="PickupValue" class="text" style="white-space: normal; width: 70%; flex-grow: 2;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Delivery" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+                <ui:Label tabindex="-1" text="Delivery" display-tooltip-when-elided="true" name="DeliveryLabel" class="text" style="width: 25%;" />
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="DeliveryValue" class="text" style="white-space: normal; width: 70%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Status" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; padding-top: 5px;">
+                <ui:Label tabindex="-1" text="Status" display-tooltip-when-elided="true" name="StatusLabel" class="text" style="width: 25%; -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="StatusValue" class="text text-link" style="white-space: normal; width: 70%; -unity-font-style: bold; flex-wrap: nowrap; flex-direction: row;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bar" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); height: initial; width: initial; flex-direction: row; flex-shrink: 0; top: 85%; left: 3%;">
+            <ui:Label tabindex="-1" text="Score" display-tooltip-when-elided="true" name="ScoreLabel" class="text" />
+            <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="ScoreValue" class="text" style="margin-right: 10px;" />
+            <ui:Label tabindex="-1" text="Speed" display-tooltip-when-elided="true" name="VelocityLabel" class="text" />
+            <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="VelocityValue" class="text" style="margin-right: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

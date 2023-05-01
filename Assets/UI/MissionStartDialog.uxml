@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main.uss?fileID=7433441132597879392&amp;guid=770a0c2edb0a4344c98a7ec06737036d&amp;type=3#main" />
+    <ui:VisualElement name="VisualElement" class="popup-container">
+        <ui:VisualElement name="MissionNameContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Mission name" display-tooltip-when-elided="true" name="MissionName" class="header" style="width: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MissionTextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Mission text" display-tooltip-when-elided="true" name="MissionText" class="text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Pickup" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:Label tabindex="-1" text="Pickup location" display-tooltip-when-elided="true" name="PickupLabel" class="text" style="width: 40%;" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="PickupValue" class="text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Delivery" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:Label tabindex="-1" text="Delivery location" display-tooltip-when-elided="true" name="DeliveryLabel" class="text" style="width: 40%;" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="DeliveryValue" class="text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
